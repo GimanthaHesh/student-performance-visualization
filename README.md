@@ -28,3 +28,19 @@ The dataset contains information about students' study hours, attendance, exam s
 ## Future Enhancements
 - Build a machine learning model to predict student pass/fail outcomes.
 - Deploy insights using a Streamlit dashboard.
+
+## Machine Learning Extension
+
+The project was extended by adding a Machine Learning component using **Linear Regression**.
+
+### Model Details
+- **Input features:** study_hours, attendance
+- **Target variable:** exam_score
+- **Algorithm:** Linear Regression
+
+### Model Evaluation
+The model is evaluated using:
+- Mean Squared Error (MSE)
+- R² Score
+
+Prediction results and visual comparisons between actual and predicted exam scores are included in the notebook.
